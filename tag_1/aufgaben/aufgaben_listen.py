@@ -34,12 +34,12 @@ logfiles = ["auth.log", "syslog", "kernel.log"]
 """
 Aufgabe 6:
 Übernimm nur erlaubte Statuscodes in eine neue Liste.
-Erzeuge neue Liste mit erlaubten STatuscodes
+Erzeuge neue Liste mit erlaubten STatuscodes. In-Operator geht auch für Listen
 """
 
 status_codes = [200, 404, 500, 200, 301, 403, 500]
 allowed_codes = [200, 301]
-
+new_codes = []
 
 """
 Aufgabe 7:
@@ -53,9 +53,8 @@ users = ["max_muster", "admin_user", "_", "backup_"]
 
 """
 Aufgabe 8 (schwer)
-Bereinige Hostnamen.
+Bereinige Hostnamen von Steuerzeichen vorne und hinten von dem String
 Entferne Leerzeichen, Steuerzeichen und den Buchstaben "x".
 Leere Hostnamen sollen nicht übernommen werden. Recherchiere dazu die String-Methode "strip"
 """
-
 hosts = [" xweb01 ", "\ndbx01", "\tproxy ", " x "]

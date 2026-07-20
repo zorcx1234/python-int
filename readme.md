@@ -2,6 +2,7 @@
 
 ## Kursmaterial
 - https://python-admins.friendlybytes.net
+- https://python-umsteiger.friendlybytes.net/
 
 ## Repository
 https://github.com/zorcx1234/python-int
