@@ -4,7 +4,7 @@
 - https://python-admins.friendlybytes.net
 
 ## Repository
---
+https://github.com/zorcx1234/python-int
 
 ## Kurszeiten
 8:00 - 16:00
