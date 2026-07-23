@@ -1,0 +1,10 @@
+{
+  "president": {
+    "name": "Zaphod Beeblebrox",
+    "species": "Betelgeusian",
+    "hobbies": [
+      "Sport",
+      "Coding"
+    ]
+  }
+}

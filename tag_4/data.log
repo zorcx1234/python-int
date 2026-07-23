@@ -1,0 +1,4 @@
+sensor_id,temperature,status
+S1,20.0,OK
+S3,19.2,FAIL
+S4,21.5,OK

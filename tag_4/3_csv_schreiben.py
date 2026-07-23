@@ -40,6 +40,7 @@ with open(BASE_DIR / "data2.csv", mode="w", encoding="utf-8", newline="") as f:
 
 
 # der Dict Writer (wenn man nur eine Untermenge von Key braucht)
+# mit extrasaction="ignore" lassen sich Fehler ignorieren (zb. fehlende Keys)
 with open(BASE_DIR / "data2.csv", mode="w", encoding="utf-8", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=["id", "name"], extrasaction="ignore")
     writer.writeheader()  # basiert auf den Feldnamen
